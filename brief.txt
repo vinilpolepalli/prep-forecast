@@ -1,0 +1,8 @@
+Project: "Prep Forecast" - a demo for Marble (joinmarble.ai, YC S26), restaurant back-office software connecting inventory, demand forecasting and operational workflows.
+
+Build a Next.js static-export demo (dark, sleek, distinct accent color - NOT indigo/emerald/amber/sky, e.g. rose or violet), following the same honesty bar as sibling projects:
+- Concept: a restaurant week's demand-forecast -> prep/purchasing desk. Deterministic engine: given a menu mix forecast (editable covers per day), it computes ingredient purchase quantities, flags waste risk and stockout risk per ingredient, and shows the prep list per day.
+- Data: build a small realistic sample dataset in-repo (one fast-casual restaurant, ~10 menu items, ~15 ingredients with yields/units/par levels). Label ALL numbers as sample/demo data. No fake claims of real restaurant data.
+- UI: week view, per-ingredient risk flags (OVER-ORDER / STOCKOUT RISK / OK) driven by the deterministic math, editable covers sliders, purchase list export view. Honest labels everywhere; footer: "Demo built by Vinil Polepalli. Independent demo; not affiliated with Marble."
+- Static export (output:'export'), npm run build must pass, no external API calls at runtime, no paid services.
+Write SPEC.md first (one page), then implement in slices. Do NOT git commit or deploy.
